@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'futur';
+  src: url(../font/futur.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'futurbold';
+  src: url(../font/futura-bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'futurmedium';
+  src: url(../font/futur_medium_bt.ttf);
+  font-weight: medium;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+#page1{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 0 1vw;
+  padding-top: 20vh;
+}
+#page1 h1{
+  font-family: futurbold;
+  font-weight: bold;
+  font-size: 15.6vw;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+  line-height: 0.85em;
+}
+#video-container{
+ width: 100%;
+ height: 100vh;
+ margin-top: 1vw;
+ position: relative;
+}
+#video-container video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
