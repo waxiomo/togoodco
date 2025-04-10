@@ -21,6 +21,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+*::selection{
+  background: #000;
+  color: #fff;
+}
 
 html, body{
   width: 100%;
