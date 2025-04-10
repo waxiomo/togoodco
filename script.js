@@ -22,8 +22,8 @@ function videoconAnimation(){
     // when the mouse moves over the video container
     videocon.addEventListener("mousemove", function(dets){
       gsap.to(playBtn, {
-        left:dets.x,
-        top:dets.y
+        left:dets.x-70,
+        top:dets.y-80,
       });  
     });
 };
