@@ -52,3 +52,16 @@ html, body{
   height: 100%;
   object-fit: cover;
 }
+#play{
+  font-family: futurbold;
+  font-weight: bold;
+  font-size: 1vw;
+  text-transform: uppercase;
+  position: fixed;
+  padding: 2.1vw 1.5vw;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  opacity: 0;
+  scale: 0;
+}
